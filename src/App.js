@@ -4,7 +4,9 @@ import classes from "./App.module.scss";
 function App() {
   return (
     <div className={classes.app_backgaround}>
+      <div className={classes.app_container}>
       <Title/>
+      </div>
     </div>
   );
 }
