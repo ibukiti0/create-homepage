@@ -1,9 +1,9 @@
-import { Title } from "./components/Title";
+import { Title } from "./components/Title/Title";
+
 function App() {
   return (
     <div>
       <Title/>
-      <h1>ibukiti blog</h1>
     </div>
   );
 }
