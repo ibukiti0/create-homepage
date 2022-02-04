@@ -1,17 +1,30 @@
 .app_backgaround{
-    width: 1200px;
-    height: 630px;
+    width: 1366px;
+    height: 940px;
     justify-content:  center;
     align-items: center;
     background-size: cover;
-    background: url(https://hololiveclip.com/wp-content/uploads/2021/05/%E3%83%9B%E3%83%AD%E3%83%A9%E3%82%A4%E3%83%96-%E3%83%AD%E3%83%B3%E3%82%B0%E3%81%BA%E3%81%93%E3%82%89-%E3%82%B9%E3%82%B3%E3%83%83%E3%83%86%E3%82%A3%E3%81%AE%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88-pixiv.jpg);
+    // background:rgb(255, 255, 255);
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    // color: #6091d3;/*文字色*/
+    background: #FFF;
+    border: solid 3px #faa303c2;/*線*/
+
 }
-// .app_container{
-//     // padding: 8px;
-//     margin: 8px;
-//     width: auto;
-//     height: auto;
-//     justify-content:  center;
-//     align-items: center;
-//     background-size: cover;
-// }
+.icon{
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 10px;
+    box-shadow: 2px 2px 4px gray
+
+    
+}

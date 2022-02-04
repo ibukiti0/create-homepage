@@ -1,15 +1,19 @@
 import { Title } from "./components/Title/Title";
-
+import countapi from 'countapi-js';
 import classes from "./App.module.scss";
 import {Myintro} from "./components/my_intro/myintro";
-import { Pekocount } from "./components/peko_count/peko_count";
+import Image  from "./Screenshot_2022-02-04-23-58-58-137_jp.naver.line.android.jpg"
+
 
 function App() {
+  countapi.visits().then((result) => {
+    console.log(result.value);
+});
   return (
     <div className={classes.app_backgaround}>
+      <img src={Image} className={classes.icon}/>
       <Title/>
       <Myintro/>
-      <Pekocount/>
     </div>
   );
 }

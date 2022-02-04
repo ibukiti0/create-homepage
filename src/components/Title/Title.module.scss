@@ -1,14 +1,16 @@
 .container{
     width: auto;
     height: auto;
-    border: solid 1px rgb(1, 236, 253);
-    background-color: rgb(1, 236, 253);
+    color:rgb(5, 174, 253);
     justify-content: center;
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 12em;
 }
 .title{
     margin: 0;
-    color: rgba(18, 36, 202, 0.267);
+    color: rgb(18, 134, 202);
 }
 .title_introduce{
     color: rgba(18, 36, 202, 0.267);
